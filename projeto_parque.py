@@ -1,4 +1,4 @@
-xclass Especie:
+class Especie:
     def __init__(self, nome, folhagem, produzfruto, tipo, raioocupado, idade_media):
         if isinstance(nome, str):
             self.__n = nome
